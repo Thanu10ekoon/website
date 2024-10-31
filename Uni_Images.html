@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Thanu-FOE</title>
+        <link rel="stylesheet" href="Main_styles.css">
+        <link rel="script" href="gallery_scrpt.js">
+    </head>
+
+    <body>
+            <!-- Navigation Bar -->
+        <div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Uni_Images.html">University Life</a></li>
+                    <li><a href="volu.html">Volunteering</a></li>
+                    <li><a href="school.html">School Life</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div style="text-align:center;">
+            <img id="slideshowImage" src="uni_photos/1.jpg" alt="Slideshow Image" style="width:500px; height:auto;">
+            <br><br>
+            <button onclick="previousImage()">Previous</button>
+            <button onclick="nextImage()">Next</button>
+          </div>
+
+        <!-- Background Video -->
+        <video autoplay muted loop id="loop_vid">
+            <source src="rescources/bkloop720.mp4" type="video/mp4">
+        </video>
+
+    </body>
+
+
+</html>
