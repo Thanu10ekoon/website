@@ -3,14 +3,6 @@ body {
     padding: 0;
 }
 
-.ifcontainer
-{
-    margin: 10px;
-    padding-left: 20px;
-    align-items: center;
-
-}
-
 .vid
 {
     display: flex;
@@ -21,6 +13,30 @@ body {
     margin-top: 10%;
     margin-left: 2%;
 }
+
+.ifcontainer
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.ifdata
+{
+    border-radius: 10%;
+    border-color: blue;
+}
+
+
+.custom-icon-color 
+{
+    padding: 20%;
+    color:aqua;
+    font-size: large;
+}
+
 
 /* Full-Screen Video Background */
 #loop_vid {
