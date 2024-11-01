@@ -1,0 +1,56 @@
+.contact-container {
+    color: aquamarine;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 4%;
+    text-align: center;
+    padding: 20px;
+    
+    background-color: #fff;
+    border: 1px solid blue;
+    border-radius: 8px;
+    background-color:rgba(51, 51, 163, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.p1
+{
+    text-align: left;
+}
+
+.map
+{
+    display: flex;
+    float: right;
+    margin-left: 1px;
+}
+
+.contact-container h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color:aqua;
+    
+}
+
+.contact-info .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: aqua;
+}
+
+.contact-info .icon {
+    font-size: 20px;
+    color:aqua;
+    margin-right: 10px;
+}
+
+.contact-info a {
+    color:aqua;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
