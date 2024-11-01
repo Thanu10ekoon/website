@@ -11,6 +11,16 @@ body {
 
 }
 
+.vid
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 900px;
+    margin-top: 10%;
+    margin-left: 2%;
+}
 
 /* Full-Screen Video Background */
 #loop_vid {
