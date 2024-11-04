@@ -141,34 +141,3 @@ body {
     border-top-right-radius: 50%;
     margin: 0;
 }
-
-
-@media (max-width: 576px) {
-    /* Adjustments for mobile screens */
-    .ifcontainer, .center-container, .vid {
-        padding: 1em;
-    }
-    /* Font and layout tweaks for small screens */
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 768px) {
-    .ifcontainer, .center-container, .vid {
-        padding: 1.5em;
-    }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 992px) {
-    .ifcontainer, .center-container, .vid {
-        padding: 2em;
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    .ifcontainer, .center-container, .vid {
-        padding: 2.5em;
-        max-width: 80%;
-    }
-}
