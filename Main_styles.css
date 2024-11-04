@@ -1,6 +1,11 @@
 body {
-    margin: 0;
+    font-size: 100%;
+    max-width: 100%;
+    margin: 0 auto;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .vid
@@ -137,11 +142,33 @@ body {
     margin: 0;
 }
 
-body
-{
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+
+@media (max-width: 576px) {
+    /* Adjustments for mobile screens */
+    .ifcontainer, .center-container, .vid {
+        padding: 1em;
+    }
+    /* Font and layout tweaks for small screens */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+    .ifcontainer, .center-container, .vid {
+        padding: 1.5em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .ifcontainer, .center-container, .vid {
+        padding: 2em;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .ifcontainer, .center-container, .vid {
+        padding: 2.5em;
+        max-width: 80%;
+    }
 }
