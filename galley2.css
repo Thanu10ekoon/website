@@ -148,3 +148,45 @@
     border-top-right-radius: 50%;
     margin: 0;
 }
+
+@media (max-width: 768px)
+{
+    .navbar {
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 9px;
+        margin-left: 0%;
+    }
+
+    .contact-container h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        font-size: 8px;
+        color:aqua;
+        
+    }
+
+    .cred_id {
+        margin: 10px;
+        vertical-align: middle;
+        display: flex;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 5px;
+        color: royalblue;
+        /* text-align: center; */
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer {
+        padding: 5px;
+        font-size: small;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+    }
+}

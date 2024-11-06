@@ -54,3 +54,26 @@
     color: blueviolet;
     text-decoration: underline;
 }
+
+@media (max-width: 768px)
+{
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info
+    {
+        flex-direction: column;
+        margin-top: 600px;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 2%;
+        font-size: 16px;
+        
+        width: 90%;
+        height: auto;
+    }
+}

@@ -152,17 +152,20 @@ body {
     }
     
     .vid {
-        height: 300px;
-        width: 90%;
-        margin: 10px auto;
-        border: none;
-    }
-    
-    .ifcontainer {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 10px;
+        height: 100px;
+        width: 90%; /* Adjust width to fit the screen but not fully */
+        margin: 0 auto; /* Center horizontally */
+        display: flex;
+        justify-content: center;
         align-items: center;
+    }
+
+    /* Center the iframe container itself */
+    .ifcontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; /* Ensures container spans full width */
     }
     
     .ifdata {
@@ -192,6 +195,18 @@ body {
         margin-left: 0%;
     }
     
+    .contact-info
+    {
+        flex-direction: column;
+        margin-top: 200px;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding: 2%;
+        font-size: 16px;
+        
+        width: 90%;
+        height: auto;
+    }
     /* Bio */
     .center-container {
         flex-direction: column;
