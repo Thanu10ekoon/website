@@ -159,19 +159,6 @@ body {
         justify-content: center;
         align-items: center;
     }
-
-    /* Center the iframe container itself */
-    .ifcontainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%; /* Ensures container spans full width */
-    }
-    
-    .ifdata {
-        border-radius: 10%;
-        border-color: blue;
-    }
     
     .custom-icon-color {
         padding: 10%;
@@ -203,7 +190,6 @@ body {
         margin-right: 2%;
         padding: 2%;
         font-size: 16px;
-        
         width: 90%;
         height: auto;
     }
@@ -239,4 +225,6 @@ body {
         border-top-left-radius: 25%;
         border-top-right-radius: 25%;
     }
+
+
 }
